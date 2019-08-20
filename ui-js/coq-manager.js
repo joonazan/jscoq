@@ -201,7 +201,7 @@ class CoqManager {
             wrapper_id: 'ide-wrapper',
             theme:      'light',
             base_path:   "./",
-            pkg_path:    "https://unpkg.com/jscoq/coq-js/coq-pkgs/",  // this is awkward: package path is relative to the worker location (coq-js)
+            pkg_path:    "https://unpkg.com/jscoq/coq-pkgs/",  // this is awkward: package path is relative to the worker location (coq-js)
             implicit_libs: false,
             init_pkgs: ['init'],
             all_pkgs:  ['init', 'math-comp',

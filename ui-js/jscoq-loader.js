@@ -53,8 +53,7 @@ var loadJsCoq, JsCoq;
         base_path = base_path || JsCoq.base_path;
         if (/[^/]$/.exec(base_path)) base_path += "/";
 
-        node_modules_path = node_modules_path || base_path + "node_modules/";
-        if (/[^/]$/.exec(node_modules_path)) node_modules_path += "/";
+        node_modules_path = "https://unpkg.com/"
 
         loadCss(node_modules_path + 'codemirror/lib/codemirror');
         loadCss(node_modules_path + 'codemirror/theme/blackboard');
